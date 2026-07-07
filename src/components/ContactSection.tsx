@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Terminal, Send, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Terminal, Send, Mail } from 'lucide-react';
 
 export function ContactSection() {
   return (
@@ -70,9 +70,9 @@ export function ContactSection() {
         <div className="mt-24 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-6 font-mono text-sm text-gray-500">
           <p>© 2026 ANUJ PHULERA. ALL SYSTEMS NOMINAL.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-[#00ff41] transition-colors flex items-center gap-2"><Github size={18}/> GITHUB</a>
-            <a href="#" className="hover:text-[#00ff41] transition-colors flex items-center gap-2"><Linkedin size={18}/> LINKEDIN</a>
-            <a href="#" className="hover:text-[#00ff41] transition-colors flex items-center gap-2"><Twitter size={18}/> TWITTER</a>
+            <a href="#" className="hover:text-[#00ff41] transition-colors flex items-center gap-2">GITHUB</a>
+            <a href="#" className="hover:text-[#00ff41] transition-colors flex items-center gap-2">LINKEDIN</a>
+            <a href="#" className="hover:text-[#00ff41] transition-colors flex items-center gap-2">TWITTER</a>
           </div>
         </div>
       </div>

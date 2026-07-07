@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Code2, Cpu, Database, Layout } from 'lucide-react';
+import { ExternalLink, Code2, Cpu, Database, Layout } from 'lucide-react';
 
 const PROJECTS = [
   {
@@ -99,7 +99,7 @@ export function ProjectsSection() {
                     <ExternalLink size={16} /> Live System
                   </a>
                   <a href={project.github} className="flex items-center gap-2 text-sm text-white border border-gray-700 px-6 py-2 hover:border-white transition-colors uppercase">
-                    <Github size={16} /> Source
+                    Code Source
                   </a>
                 </div>
               </div>
